@@ -1,0 +1,328 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "BrownfieldLib",
+    "printedName": "BrownfieldLib",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "BrownfieldLib"
+      },
+      {
+        "kind": "Import",
+        "name": "ReactBrownfield",
+        "printedName": "ReactBrownfield",
+        "declKind": "Import",
+        "moduleName": "BrownfieldLib"
+      },
+      {
+        "kind": "Var",
+        "name": "ReactNativeBundle",
+        "printedName": "ReactNativeBundle",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Bundle",
+            "printedName": "Foundation.Bundle",
+            "usr": "c:objc(cs)NSBundle"
+          }
+        ],
+        "declKind": "Var",
+        "usr": "s:13BrownfieldLib17ReactNativeBundleSo8NSBundleCvp",
+        "mangledName": "$s13BrownfieldLib17ReactNativeBundleSo8NSBundleCvp",
+        "moduleName": "BrownfieldLib",
+        "declAttributes": [
+          "HasInitialValue",
+          "HasStorage",
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "isLet": true,
+        "hasStorage": true,
+        "accessors": [
+          {
+            "kind": "Accessor",
+            "name": "Get",
+            "printedName": "Get()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bundle",
+                "printedName": "Foundation.Bundle",
+                "usr": "c:objc(cs)NSBundle"
+              }
+            ],
+            "declKind": "Accessor",
+            "usr": "s:13BrownfieldLib17ReactNativeBundleSo8NSBundleCvg",
+            "mangledName": "$s13BrownfieldLib17ReactNativeBundleSo8NSBundleCvg",
+            "moduleName": "BrownfieldLib",
+            "implicit": true,
+            "accessorKind": "get"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "ExpoModulesCore",
+        "printedName": "ExpoModulesCore",
+        "declKind": "Import",
+        "moduleName": "BrownfieldLib",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Expo",
+        "printedName": "Expo",
+        "declKind": "Import",
+        "moduleName": "BrownfieldLib",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "ExpoAsset",
+        "printedName": "ExpoAsset",
+        "declKind": "Import",
+        "moduleName": "BrownfieldLib",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "EXConstants",
+        "printedName": "EXConstants",
+        "declKind": "Import",
+        "moduleName": "BrownfieldLib",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "ExpoFileSystem",
+        "printedName": "ExpoFileSystem",
+        "declKind": "Import",
+        "moduleName": "BrownfieldLib",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "ExpoFont",
+        "printedName": "ExpoFont",
+        "declKind": "Import",
+        "moduleName": "BrownfieldLib",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "ExpoHaptics",
+        "printedName": "ExpoHaptics",
+        "declKind": "Import",
+        "moduleName": "BrownfieldLib",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "ExpoImage",
+        "printedName": "ExpoImage",
+        "declKind": "Import",
+        "moduleName": "BrownfieldLib",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "ExpoKeepAwake",
+        "printedName": "ExpoKeepAwake",
+        "declKind": "Import",
+        "moduleName": "BrownfieldLib",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "ExpoLinking",
+        "printedName": "ExpoLinking",
+        "declKind": "Import",
+        "moduleName": "BrownfieldLib",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "ExpoHead",
+        "printedName": "ExpoHead",
+        "declKind": "Import",
+        "moduleName": "BrownfieldLib",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "ExpoSplashScreen",
+        "printedName": "ExpoSplashScreen",
+        "declKind": "Import",
+        "moduleName": "BrownfieldLib",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "ExpoSymbols",
+        "printedName": "ExpoSymbols",
+        "declKind": "Import",
+        "moduleName": "BrownfieldLib",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "ExpoSystemUI",
+        "printedName": "ExpoSystemUI",
+        "declKind": "Import",
+        "moduleName": "BrownfieldLib",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "ExpoWebBrowser",
+        "printedName": "ExpoWebBrowser",
+        "declKind": "Import",
+        "moduleName": "BrownfieldLib",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ReactNativeBrownfield",
+        "printedName": "ReactNativeBrownfield",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "ensureExpoModulesProvider",
+            "printedName": "ensureExpoModulesProvider()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15ReactBrownfield0a6NativeB0C0B3LibE25ensureExpoModulesProvideryyF",
+            "mangledName": "$s15ReactBrownfield0a6NativeB0C0B3LibE25ensureExpoModulesProvideryyF",
+            "moduleName": "BrownfieldLib",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@ReactBrownfield@objc(cs)ReactNativeBrownfield",
+        "mangledName": "$s15ReactBrownfield0a6NativeB0C",
+        "moduleName": "ReactBrownfield",
+        "declAttributes": [
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "isExternal": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": []
+}
