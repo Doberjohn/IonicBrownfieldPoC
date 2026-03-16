@@ -1,0 +1,35 @@
+# Dependencies
+node_modules/
+
+# Expo
+.expo/
+dist/
+
+# React Native Brownfield artifacts
+.brownfield/
+
+# iOS
+*.xcworkspace
+*.xcuserdata
+Pods/
+DerivedData/
+build/
+
+# Android
+*.apk
+*.aab
+.gradle/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Environment
+.env
+.env.local
