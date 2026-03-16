@@ -14,6 +14,8 @@
 		4B6D0E462F687BE5004BF7CF /* BrownfieldLib.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4B6D0E412F687BE5004BF7CF /* BrownfieldLib.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		4B6D0E472F687BE5004BF7CF /* ReactBrownfield.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B6D0E422F687BE5004BF7CF /* ReactBrownfield.xcframework */; };
 		4B6D0E482F687BE5004BF7CF /* ReactBrownfield.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4B6D0E422F687BE5004BF7CF /* ReactBrownfield.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		4B6D0E4B2F687C92004BF7CF /* ReactNativeBridgePlugin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B6D0E4A2F687C92004BF7CF /* ReactNativeBridgePlugin.swift */; };
+		4B6D0E512F687F7C004BF7CF /* MyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B6D0E502F687F7C004BF7CF /* MyViewController.swift */; };
 		4D22ABE92AF431CB00220026 /* CapApp-SPM in Frameworks */ = {isa = PBXBuildFile; productRef = 4D22ABE82AF431CB00220026 /* CapApp-SPM */; };
 		50379B232058CBB4000EE86E /* capacitor.config.json in Resources */ = {isa = PBXBuildFile; fileRef = 50379B222058CBB4000EE86E /* capacitor.config.json */; };
 		504EC3081FED79650016851F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 504EC3071FED79650016851F /* AppDelegate.swift */; };
@@ -44,6 +46,8 @@
 		4B6D0E402F687BE5004BF7CF /* hermes.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = hermes.xcframework; path = Frameworks/hermes.xcframework; sourceTree = "<group>"; };
 		4B6D0E412F687BE5004BF7CF /* BrownfieldLib.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = BrownfieldLib.xcframework; path = Frameworks/BrownfieldLib.xcframework; sourceTree = "<group>"; };
 		4B6D0E422F687BE5004BF7CF /* ReactBrownfield.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = ReactBrownfield.xcframework; path = Frameworks/ReactBrownfield.xcframework; sourceTree = "<group>"; };
+		4B6D0E4A2F687C92004BF7CF /* ReactNativeBridgePlugin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReactNativeBridgePlugin.swift; sourceTree = "<group>"; };
+		4B6D0E502F687F7C004BF7CF /* MyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyViewController.swift; sourceTree = "<group>"; };
 		50379B222058CBB4000EE86E /* capacitor.config.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = capacitor.config.json; sourceTree = "<group>"; };
 		504EC3041FED79650016851F /* App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = App.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		504EC3071FED79650016851F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -101,6 +105,8 @@
 		504EC3061FED79650016851F /* App */ = {
 			isa = PBXGroup;
 			children = (
+				4B6D0E502F687F7C004BF7CF /* MyViewController.swift */,
+				4B6D0E4A2F687C92004BF7CF /* ReactNativeBridgePlugin.swift */,
 				50379B222058CBB4000EE86E /* capacitor.config.json */,
 				504EC3071FED79650016851F /* AppDelegate.swift */,
 				504EC30B1FED79650016851F /* Main.storyboard */,
@@ -195,6 +201,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4B6D0E4B2F687C92004BF7CF /* ReactNativeBridgePlugin.swift in Sources */,
+				4B6D0E512F687F7C004BF7CF /* MyViewController.swift in Sources */,
 				504EC3081FED79650016851F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
