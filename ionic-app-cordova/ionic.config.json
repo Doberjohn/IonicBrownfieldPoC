@@ -1,0 +1,7 @@
+{
+  "name": "ionic-app-cordova",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular-standalone"
+}
