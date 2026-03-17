@@ -1,4 +1,5 @@
-import { View, Text, StyleSheet } from "react-native";
+import { View, Text, StyleSheet, Pressable, Alert } from "react-native";
+import ReactNativeBrownfield from "@callstack/react-native-brownfield";
 
 export default function App() {
   return (
@@ -13,6 +14,12 @@ export default function App() {
       <View style={styles.badge}>
         <Text style={styles.badgeText}>Brownfield PoC</Text>
       </View>
+      <Pressable
+        style={styles.closeButton}
+        onPress={() => ReactNativeBrownfield.postMessage("dismiss")}
+      >
+        <Text style={styles.closeButtonText}>Close</Text>
+      </Pressable>
     </View>
   );
 }
@@ -48,5 +55,17 @@ const styles = StyleSheet.create({
     fontSize: 14,
     fontWeight: "600",
     color: "#2E7D32",
+  },
+  closeButton: {
+    marginTop: 24,
+    paddingHorizontal: 32,
+    paddingVertical: 12,
+    borderRadius: 8,
+    backgroundColor: "#1a1a1a",
+  },
+  closeButtonText: {
+    fontSize: 16,
+    fontWeight: "600",
+    color: "#FFFFFF",
   },
 });

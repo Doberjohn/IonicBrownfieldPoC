@@ -46,11 +46,11 @@
 		</data>
 		<key>Modules/BrownfieldLib.swiftmodule/Project/arm64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		y5o5phlyFXmUQqLGXSLrdHv1CJQ=
+		+4fUyVfUyaJsxykJj9y8TMjFhwA=
 		</data>
 		<key>Modules/BrownfieldLib.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		TF/6qTcEYzq3N5RziwqpSEYTcVQ=
+		Kg2nT1JqI9jOs6CSes8fj8zVB44=
 		</data>
 		<key>Modules/BrownfieldLib.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -130,7 +130,7 @@
 		</data>
 		<key>main.jsbundle</key>
 		<data>
-		qVRMr1ITjlcApS18xqYp+VbOBOw=
+		lbLSU+h3ZDYwAcv1ubYs4+9dEyk=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -202,14 +202,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Mn+PQkFIlBeqLtmuqCtT8erfjmW/bWn1uEzQa327/rk=
+			wll+YlNKTBqbgGwFSlYJwDB+3yLDSRnXFDppidbEDUs=
 			</data>
 		</dict>
 		<key>Modules/BrownfieldLib.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			4Bf48ww0noXnfMkLIAfo5uoROVnZxJFzjOsI2GJAwAU=
+			MzJkvhVdvEy/eX3UNKLlLb/ZZcljnXxnEOQhbLiQUoM=
 			</data>
 		</dict>
 		<key>Modules/BrownfieldLib.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
@@ -349,7 +349,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			EaZJwuUVsFFxE+l8kt44aEO9fuJnE/KqqOvLDAGcfZI=
+			EV6CLV49+bKvwz7mXFgegoM+ZXU0gA4EoXRi33V46rg=
 			</data>
 		</dict>
 	</dict>

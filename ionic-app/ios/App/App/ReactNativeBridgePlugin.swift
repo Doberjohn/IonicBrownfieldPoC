@@ -18,21 +18,25 @@ public class ReactNativeBridgePlugin: CAPPlugin, CAPBridgedPlugin {
         CAPPluginMethod(name: "openScreen", returnType: CAPPluginReturnPromise)
     ]
 
+    private var messageObserver: NSObjectProtocol?
+
     @objc func openScreen(_ call: CAPPluginCall) {
         let moduleName = call.getString("moduleName") ?? "main"
 
         DispatchQueue.main.async {
-            guard let rnView = ReactNativeBrownfield.shared.view(
-                moduleName: moduleName,
-                initialProps: nil
-            ) else {
-                call.reject("Failed to create React Native view")
-                return
+            let vc = ReactNativeViewController(moduleName: moduleName)
+            vc.modalPresentationStyle = .fullScreen
+
+            // Listen for dismiss message from RN
+            self.messageObserver = ReactNativeBrownfield.shared.onMessage { message in
+                let cleaned = message.trimmingCharacters(in: CharacterSet(charactersIn: "\""))
+                if cleaned == "dismiss" {
+                    DispatchQueue.main.async {
+                        vc.dismiss(animated: true)
+                    }
+                }
             }
 
-            let vc = UIViewController()
-            vc.view = rnView
-            vc.modalPresentationStyle = .fullScreen
             self.bridge?.viewController?.present(vc, animated: true)
         }
 
