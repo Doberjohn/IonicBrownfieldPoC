@@ -109,6 +109,12 @@ Build and run on the iOS Simulator. Navigate to Tab 3 and tap "Open React Native
 
 ## How It Works
 
+### Screenshots
+
+| Ionic App (Tab 1) | Brownfield Tab (Tab 3) | React Native Screen |
+|:--:|:--:|:--:|
+| ![Ionic Tabs](screenshots/01-ionic-tabs.png) | ![Brownfield Tab](screenshots/02-brownfield-tab.png) | ![RN Screen](screenshots/03-react-native-screen.png) |
+
 ### Architecture
 
 ```
