@@ -1,17 +1,13 @@
-<ion-header [translucent]="true">
+<ion-header>
   <ion-toolbar>
-    <ion-title>
-      Tab 3
-    </ion-title>
+    <ion-title>React Native</ion-title>
   </ion-toolbar>
 </ion-header>
 
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Tab 3</ion-title>
-    </ion-toolbar>
-  </ion-header>
-
-  <app-explore-container name="Tab 3 page"></app-explore-container>
+<ion-content class="ion-padding">
+  <h2>Brownfield PoC</h2>
+  <p>Tap the button below to open a screen rendered entirely by React Native.</p>
+  <ion-button expand="block" (click)="openReactNative()">
+    Open React Native Screen
+  </ion-button>
 </ion-content>
