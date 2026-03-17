@@ -159,5 +159,5 @@ The RN screen uses `ReactNativeBrownfield.postMessage("dismiss")` to signal the 
 
 Detailed step-by-step guides are available as Word documents:
 
-- `IonicBrownfieldPoC-Guide-v3.docx` - Capacitor variant guide
-- `IonicBrownfieldPoC-Cordova-Guide.docx` - Cordova variant guide
+- [`IonicBrownfieldPoC-Capacitor-Guide.docx`](https://github.com/Doberjohn/IonicBrownfieldPoC/blob/main/docs/IonicBrownfieldPoC-Capacitor-Guide.docx) - Capacitor variant guide
+- [`IonicBrownfieldPoC-Cordova-Guide.docx`](https://github.com/Doberjohn/IonicBrownfieldPoC/blob/main/docs/IonicBrownfieldPoC-Cordova-Guide.docx) - Cordova variant guide
