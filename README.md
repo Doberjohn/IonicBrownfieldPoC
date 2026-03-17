@@ -20,7 +20,7 @@ IonicBrownfieldPoC/
 
 | Component | Technology |
 |-----------|-----------|
-| RN Module | Expo SDK 54, react-native-brownfield v3.3 |
+| RN Module | Expo SDK 54, [react-native-brownfield v3.3](https://github.com/callstack/react-native-brownfield) |
 | Ionic App | Ionic 7+, Angular, Capacitor |
 | Native Bridge | Custom Capacitor plugin (Swift) |
 | JS Engine | Hermes |
